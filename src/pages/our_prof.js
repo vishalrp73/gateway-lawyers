@@ -1,15 +1,14 @@
 import './pageCSS/our_prof.css';
 import { useState, useEffect } from 'react';
 
+import profiles from '../doc/profiles.json';
+
 const OurProfile = () => {
 
-    const [profiles, setProfiles] = useState([]);
+    const [prof, setProf] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:4000/profiles')
-        .then (response => response.json())
-        .then (json => setProfiles(json))
-        .catch (err => console.log(err));
+        setProf(profiles)
     }, [])
 
     console.log(profiles)
@@ -17,7 +16,7 @@ const OurProfile = () => {
 
     return (
         <div className = 'profiles-wrapper'>
-            { profiles.map(profile => (
+            { prof.map(profile => (
                 <div className = 'prof-container'>
                     <img src = { profile.photo } className = 'prof-photo' />
 
