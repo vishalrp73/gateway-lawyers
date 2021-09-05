@@ -1,0 +1,43 @@
+.core-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-wrapper {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-btn {
+    width: 10%;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.nav-btn:hover {
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+.nav-btn-active {
+    background-color: #888888;
+}
+
+.nav-btn-ga-active {
+    background-color: #000;
+    color: white;
+}
+
+.content-wrapper {
+    width: 100%;
+
+}

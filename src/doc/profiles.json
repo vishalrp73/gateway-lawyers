@@ -1,0 +1,68 @@
+[
+        {
+            "first_name": "Rani",
+            "last_name": "Prakash",
+            "title": "Director / Principal",
+            "certs": "LLB., GDLP",
+            "landline": "(09) 282 3920",
+            "mobile": "",
+            "email": "rani@gatewaylawyers.co.nz",
+            "photo": "https://gateway-lawyers.s3.ap-southeast-2.amazonaws.com/Rani.jpg",
+            "bio": "Rani has practiced in both Australia and New Zealand handling a wide range of legal matters. She is the principal of the law firm, Gateway Lawyers, which she established in 2016. Rani believes in providing a high level of professional legal services to clients, with a practical approach to problem solving. With Gateway Lawyers, you get to deal directly with the lawyer handling your matter, at every stage of it."
+        },
+        {
+            "first_name": "Paramjeet",
+            "last_name": "Singh Rana",
+            "title": "Senior Associate",
+            "certs": "LLB., BCom",
+            "landline": "(09) 282 3920",
+            "mobile": "021 020 37285",
+            "email": "paramjeet@gatewaylawyers.co.nz",
+            "photo": "https://gateway-lawyers.s3.ap-southeast-2.amazonaws.com/Paramjeet-Edit.png",
+            "bio": "Param joined Gateway Lawyers in April 2017. He is a Barrister and Solicitor of the High Court of New Zealand and has practices for over 9 years, handling a wide range of legal matters ranging from Property, Family and other Civil matters. Paramjeet believes in providing a high level of professional legal service to clients, with a practical approach to problem solving. Param believes in providing trusted legal service and this has been his driving factor in maintaining client loyalty and respect."
+        },
+        {
+            "first_name": "Patricia",
+            "last_name": "Govender",
+            "title": "Solicitor",
+            "certs": "LLB., BA",
+            "landline": "",
+            "mobile": "",
+            "email": "patricia@gatewaylawyers.co.nz",
+            "photo": "https://gateway-lawyers.s3.ap-southeast-2.amazonaws.com/Patricia.JPG.jpg",
+            "bio": "Patricia is a recent addition to our team. She immigrated from South Africa in 2000 after completing her BA LLB and joined the Ministry of Justice (Legal Aid). Patricia is now a practicing solicitor who has dabbled in a few areas of law and now property law. An informed understanding and proactive problem solving is key to client satisfaction. With a young fmaily and hobbies such as tramping, yoga and reading, Patricia believes the work-life balance makes for a well-grounded practictioner."
+        },
+        {
+            "first_name": "Manini",
+            "last_name": "Thakker",
+            "title": "Law Clerk",
+            "certs": "Bachelor of Laws / Arts",
+            "landline": "",
+            "mobile": "",
+            "email": "manini@gatewaylawyers.co.nz",
+            "photo": "https://gateway-lawyers.s3.ap-southeast-2.amazonaws.com/Manini.jpg",
+            "bio": "Manini has recently completed her LLB and is working towards completing her Professionals Legal Studies Course. She is client-focused and can collaborate with and learn from people with different backgrounds and skillsets. She is also a detail-oriented individual who works well under pressure."
+        },
+        {
+            "first_name": "Darpana",
+            "last_name": "Bhikha",
+            "title": "Legal Assistant",
+            "certs": "BCom - Commercial Law",
+            "landline": "",
+            "mobile": "",
+            "email": "admin@gatewaylawyers.co.nz",
+            "photo": "https://gateway-lawyers.s3.ap-southeast-2.amazonaws.com/Darpana.JPG.jpg",
+            "bio": "Darpana's experience lies within real estate and self-managing her own business for 7 1/2 years. She supports the needs of our law firm with the responsibility to manage day to day operations through carrying out administrative tasks and services. Darpana believes in maintaining a loyal and professional relationship with clients."
+        },
+        {
+            "first_name": "Simerjeet",
+            "last_name": "Kaur",
+            "title": "Legal Assistant",
+            "certs": "Diploma of Conveyancing (currently studying)",
+            "landline": "",
+            "mobile": "",
+            "email": "sim@gatewaylawyers.co.nz",
+            "photo": "https://gateway-lawyers.s3.ap-southeast-2.amazonaws.com/Simerjeet.jpg",
+            "bio": "Simerjeet is working towards completing her NZ Diploma of Conveyancing. She strongly believes in meeting the expectations and requirements of the clients, establishes and maintains effective relationships with customers and to gain their trust and respect. Her motto is 'the more you are organised, the better you keep up.'"
+        }
+    ]
