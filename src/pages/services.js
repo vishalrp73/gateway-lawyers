@@ -6,10 +6,10 @@ import family from '../img/services/family-icon.jpg';
 
 const Services = () => {
     return (
-        <div className = 'services-wrapper'>
+        <div className = 'services-wrapper' id = 'resp_services-wrapper'>
             
             
-            <div className = 'service-box'>
+            <div className = 'service-box' id = 'resp_services-box'>
                 <img className = 'service-img' src = { res_com } />
                 <h3 className = 'service-title'>Residential &amp; Commercial</h3>
                 <p className = 'service-brief'>Full residential / commercial property services including:</p>
@@ -27,7 +27,7 @@ const Services = () => {
                 </ul>
             </div>
 
-            <div className = 'service-box'>
+            <div className = 'service-box' id = 'resp_services-box'>
                 <img className = 'service-img' src = { trusts } />
                 <h3 className = 'service-title'>Trusts &amp; Wills</h3>
                 <p className = 'service-brief'>We offer personalised and cost effective advice on managing
@@ -41,7 +41,7 @@ const Services = () => {
                 </ul>
             </div>
 
-            <div className = 'service-box'>
+            <div className = 'service-box' id = 'resp_services-box'>
                 <img className = 'service-img' src = { family } />
                 <h3 className = 'service-title'>Family Law</h3>
                 <p className = 'service-brief'>We offer compassionate and timely advice on the following:</p>

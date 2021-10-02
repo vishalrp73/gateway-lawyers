@@ -2,8 +2,17 @@ import './slideshow.css';
 
 import React, { useState, useEffect } from 'react';
 
-const images = ["https://gateway-lawyers.s3.ap-southeast-2.amazonaws.com/slides/table.jpg", "https://gateway-lawyers.s3.ap-southeast-2.amazonaws.com/slides/degrees.jpg", "https://gateway-lawyers.s3.ap-southeast-2.amazonaws.com/slides/exterior.jpg"]
-const imgText = ["New Zealand and Australian Legal Services", "Property & Commercial Law, Trusts, Wills and Family Law", "We offer compassionate, timely and personalised advice"]
+const images = [
+        "https://gateway-lawyers.s3.ap-southeast-2.amazonaws.com/slides/table.jpg",
+        "https://gateway-lawyers.s3.ap-southeast-2.amazonaws.com/slides/degrees.jpg",
+        "https://gateway-lawyers.s3.ap-southeast-2.amazonaws.com/slides/exterior.jpg"
+    ]
+
+const imgText = [
+    "New Zealand and Australian Legal Services",
+    `Property & Commercial law Trusts, Wills and Family Law`,
+    "We offer compassionate, timely and personalised advice"
+]
 const delay = 5000;
 
 const Slideshow = () => {
@@ -34,7 +43,7 @@ const Slideshow = () => {
                 
                 { images.map((bImg, index) => (
                     <div className = 'slide' key = {index} style = {{ backgroundImage: `url(${bImg})` }}>
-                        <p className = 'slide-text'>{imgText[index]}</p>
+                        <p className = 'slide-text' id = 'resp_slide-text'>{imgText[index]}</p>
                     </div>
                 ))}
 

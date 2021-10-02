@@ -1,9 +1,25 @@
+@media screen and (max-width: 650px) {
+    #resp_banner-title {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #resp_banner-title {
+        font-size: 32px;
+    }
+    #resp_banner-wrapper {
+        margin: 0px auto;
+    }
+}
+
 .banner-wrapper {
     width: 100%;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 25px auto 0 auto;
 }
 
 .banner-title {

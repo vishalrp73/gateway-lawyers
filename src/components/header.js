@@ -1,5 +1,4 @@
 import logo from '../img/logo.png';
-import caret_right from '../img/caret_right.png';
 import './header.css';
 
 const Header = () => {
@@ -13,7 +12,6 @@ const Header = () => {
 
             <div className = 'phone-wrapper'>
                 <p id = 'phone-text'>PH: (09) 282 3920</p>
-            <img id = 'chevron-right' src = { caret_right } onClick = "#" style ={{ cursor: 'pointer'}}/>
             </div>
         </div>
     )

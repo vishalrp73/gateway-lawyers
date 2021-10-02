@@ -1,8 +1,25 @@
+@media screen and (max-width: 450px) {
+    #resp_name-text {
+        font-size: 20px;
+    }
+    #resp_title-text {
+        font-size: 14px;
+    }
+    #resp_certs-text {
+        font-size: 10px;
+    }
+    #resp_landline-text, #resp_mob-text, #resp_email-text, #resp_bio-text {
+        font-size: 10px;
+    }
+}
+
 .profiles-wrapper {
     width: 50%;
-    margin: 50px auto;
+    margin: 25px auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .prof-container {
@@ -27,6 +44,22 @@
 
 .name-text, .title-text, .certs-text, .mob-text, .email-text {
     margin: 0;
+}
+
+.name-text {
+    font-size: 32px;
+}
+
+.title-text {
+    font-size: 24px;
+}
+
+.certs-text {
+    font-size: 20px;
+}
+
+.landline-text {
+    font-size: 16px;
 }
 
 .landline-text {
